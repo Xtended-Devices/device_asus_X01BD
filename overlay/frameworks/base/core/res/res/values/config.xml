@@ -626,4 +626,12 @@
          This service must be trusted, as it can be activated without explicit consent of the user.
          See android.attention.AttentionManagerService -->
     <string name="config_defaultAttentionService" translatable="false">com.google.android.as</string>
+
+    <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
+         when registering authenticators with BiometricService. Format must be ID:Modality:Strength,
+         where: IDs are unique per device, Modality as defined in BiometricAuthenticator.java,
+         and Strength as defined in Authenticators.java -->
+    <string-array name="config_biometric_sensors" translatable="false" >
+        <item>0:2:15</item> <!-- ID0:Fingerprint:Strong -->
+    </string-array>
 </resources>
