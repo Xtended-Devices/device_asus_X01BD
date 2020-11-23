@@ -255,21 +255,6 @@ vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|0be2d9cc1ab452a1b4473087de874b3fc0722bff
 
 # GPS - from LA.UM.8.2.r1-06200-sdm660.0
-etc/permissions/com.qti.location.sdk.xml|cb68a566bd77dcc75bb7547199d528289fac01cb
-etc/permissions/com.qualcomm.location.xml|1d36e7cf8e16813aa13ee6b3fca8d8687b543828
-etc/permissions/izat.xt.srv.xml|a0f460056f27b5495a4d6e959eecf0e429c42a57
-etc/permissions/privapp-permissions-com.qualcomm.location.xml|2dc7fba818bdf582bfea849a74f4b312d90745c9
-framework/com.qti.location.sdk.jar|5dcbf27bd7709a111985e9660b5b61b5fb7a22b1
-framework/izat.xt.srv.jar|665e45694ff4dc4c610448be853c1ea1ca0ede4c
-lib64/liblocationservice_jni.so|b623beb13e1860ad47ea76be4b4e8b7582886947
-lib64/libxt_native.so|d023ae9678d7954285ad61903d73cac14a86e3ce
--priv-app/com.qualcomm.location/com.qualcomm.location.apk|1eaec457ec50015a056991aee2bf7b61f2763f1d
-product/lib64/vendor.qti.gnss@1.0.so|ce99dc24861514d3444bdaca9336c98227e3d951
-product/lib64/vendor.qti.gnss@1.1.so|bb56a726390e44e240f5daa26a34e08e87461734
-product/lib64/vendor.qti.gnss@1.2.so|788ec8d5730ed1201e941abd738dce212074feb3
-product/lib64/vendor.qti.gnss@2.0.so|dc370cbed727554a69ab283276d757e6597fdb4c
-product/lib64/vendor.qti.gnss@2.1.so|79d924c8006b33b358bf9e3d9a21ff2fe8a937df
-product/lib64/vendor.qti.gnss@3.0.so|48b718e175dbf6156ded10a056a47d4988319395
 vendor/bin/loc_launcher|9623f5f96bd262abc5c883610feca43a5ab214b3
 vendor/bin/lowi-server|8e00ed96c2381d5b178ed24ee75b04f30bc8bb19
 vendor/bin/slim_daemon|b877991fa88483cf4f5d7346136f72dac6f27f3c
