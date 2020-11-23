@@ -619,7 +619,7 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e157937
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|1ac676dca4c81094b254b62f1b608e471b385847
 
 # Time services - from LA.UM.8.2.r1-06200-sdm660.0
--vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|4a37afd1395758d946580af184a738e3c657b1e2
+-vendor/app/TimeService/TimeService.apk|4a37afd1395758d946580af184a738e3c657b1e2
 vendor/bin/time_daemon|a3efd58d57f23d0f8e7cfe8da0d7887b2f3e48e8
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|216cbb72e22a0ca76d766dc0b84055c5b31e0a4c
