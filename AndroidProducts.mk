@@ -1,12 +1,12 @@
 #
-# Copyright (C) 2020 Havoc-OS
+# Copyright (C) 2020 The Project-Xtended
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_X01BD.mk
+    $(LOCAL_DIR)/xtended_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_X01BD-user \
-    havoc_X01BD-userdebug
+    xtended_X01BD-user \
+    xtended_X01BD-userdebug

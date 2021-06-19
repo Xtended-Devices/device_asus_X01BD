@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 Havoc-OS
+# Copyright (C) 2020 The Project-Xtended
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -9,17 +9,26 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common Havoc-OS stuff
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+# Inherit some common Xtended stuff
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
-HAVOC_BUILD_TYPE := Official
-HAVOC_MAINTAINER := SonalSingh
+XTENDED_BUILD_TYPE := OFFICIAL
+XTENDED_BUILD_MAINTAINER := SonalSingh
+XTENDED_BUILD_DONATE_URL := https://www.paypal.me/sonal18
+
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# GAPPS
+ifeq ($(GAPPS),true)
+$(call inherit-product, vendor/gapps/common/common-vendor.mk)
+XTENDED_BUILD_VARIANT := GAPPS
+endif
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := havoc_X01BD
+PRODUCT_NAME := xtended_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Asus Zenfone Max Pro M2
