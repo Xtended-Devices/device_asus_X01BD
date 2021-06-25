@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The DotOS
+# Copyright (C) 2020 The Evolution-X Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -9,8 +9,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common DotOS stuff
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit some common Evolution-X stuff
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
@@ -20,7 +20,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_X01BD
+PRODUCT_NAME := evolution_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Asus Zenfone Max Pro M2
